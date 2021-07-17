@@ -21,7 +21,7 @@
 		$password = $_POST["password"];
 		
 		// Prepare SELECT query
-		$select = $conn->prepare('SELECT * FROM thing1 WHERE name = ? AND pword = ?');
+		$select = $conn->prepare('SELECT * FROM table_in_yourdb WHERE name = ? AND pword = ?');
 		$select->bind_param('ss', $name, $password);
 		$select->execute();
 		
