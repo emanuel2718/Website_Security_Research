@@ -1,6 +1,6 @@
 <?php
     $name = $_GET['name'];
-    echo remove_tags_from_name($name);
+    echo "Your name is: ".remove_tags_from_name($name);
 
     function remove_tags_from_name($name) {
         $fixed_name = strip_tags($name);
