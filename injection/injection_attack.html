@@ -1,6 +1,17 @@
 <html>  
+    <!-- Vulnerable to all HTML injections -->
+    <header><strong>Vulnerable HTML Injection</strong></header>
     <body>  
         <form action='submit.php' method='get'>  
+        Enter your name : <input type='text' name='name' /><br />  
+        <input type='submit' value='Submit' />
+        </form>  
+    </body>  
+
+    <!-- Patched HTML injection -->
+    <header><strong>Patched against HTML Injection</strong></header>
+    <body>  
+        <form action='submit_patched.php' method='get'>  
         Enter your name : <input type='text' name='name' /><br />  
         <input type='submit' value='Submit' />
         </form>  
