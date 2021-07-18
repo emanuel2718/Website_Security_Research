@@ -31,7 +31,8 @@ if(isset($_GET["search"]))
 <div align="center">
 <h3>This website was made for educational 
 purposes.</h3>
-    <ul> See below for further reading-
+    <ul style="text-align: center;list-style-position: inside;">
+     See below for further reading-
         <li>OWASP: <a href="https://owasp.org/www-community/attacks/xss/">
         https://owasp.org/www-community/attacks/xss/</a> 
         <li>Wikipedia: 
