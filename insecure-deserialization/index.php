@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-<title> CS467 Insecure Deserialization </title>
-<head>
- <meta name="author" content="Ray Franklin">
- <meta name="Reference source" 
- content=https://blog.convisoappsec.com/en/introduction-to-insecure-deserialization-in-php/
- content="https://makitweb.com/create-simple-login-page-with-php-and-mysql/">
-</head>
-<body>
-<h1 align="center"> Employee Class Serialized:</h1>
-<br>
 <div class="container">
     <form method="post" action="">
         <div id="div_login">
@@ -37,7 +25,9 @@ if(isset($_POST['but_submit'])){
 
     if ($uname != "" && $password != ""){
 
-        $sql_query = "select count(*) as cntUser from users where username='".$uname."' and password='".$password."'";
+        echo "Here";
+
+        $sql_query = "select count(*) as cntUser from test_table where username='".$uname."' and password='".$password."'";
         $result = mysqli_query($con,$sql_query);
         $row = mysqli_fetch_array($result);
 
@@ -53,5 +43,3 @@ if(isset($_POST['but_submit'])){
     }
 
 }
-
-
