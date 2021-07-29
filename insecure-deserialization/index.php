@@ -1,3 +1,5 @@
+<!-- Simpe login page from: https://makitweb.com/create-simple-login-page-with-php-and-mysql/-->
+
 <div class="container">
     <form method="post" action="">
         <div id="div_login">
@@ -25,9 +27,7 @@ if(isset($_POST['but_submit'])){
 
     if ($uname != "" && $password != ""){
 
-        echo "Here";
-
-        $sql_query = "select count(*) as cntUser from test_table where username='".$uname."' and password='".$password."'";
+        $sql_query = "select count(*) as cntUser from test_table where username='".$uname."' and pwd='".$password."'";
         $result = mysqli_query($con,$sql_query);
         $row = mysqli_fetch_array($result);
 

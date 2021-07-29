@@ -2,6 +2,10 @@
 <?php
 include "config.php";
 
+echo "You are logged in as " . $_SESSION['uname'];
+echo "Your admin access: " . $_SESSION['admin'];
+
+
 // Check user login or not
 if(!isset($_SESSION['uname'])){
     header('Location: index.php');
