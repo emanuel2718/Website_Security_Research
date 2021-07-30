@@ -3,7 +3,7 @@
 include "config.php";
 
 echo "You are logged in as " . $_SESSION['uname'];
-echo "Your admin access: " . $_SESSION['admin'];
+print_r($row);
 
 
 // Check user login or not
