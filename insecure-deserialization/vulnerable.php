@@ -11,6 +11,15 @@
 <h1 align="center"> Employee Class Serialized:</h1>
 <br>
 
+<table align="center">
+<tr><td>
+<form action="vulnerable.php" method="get">
+	<input type="text" name="username" placeholder="search" />
+	<input type="submit" value="Search" />
+</form>
+</td></tr>
+</table>
+
 <?php
 
 class User{
@@ -27,11 +36,17 @@ class User{
 
 }
 
-$object = new User();
-$object->$user_name = "Ali";
-$object->$is_admin = True;
-echo serialize($object)
+echo $_POST['username'];
+echo $_REQUEST['username'] . "request";
+echo '\n';
 
+$object = new User();
+$object->$user_name = $_REQUEST['username'];
+$object->$is_admin = FALSE;
+
+echo '<div contenteditable="true" align="center">';
+echo serialize($object);
+echo '</div>';
 
 
 
