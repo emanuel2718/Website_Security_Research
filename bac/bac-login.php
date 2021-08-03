@@ -24,12 +24,12 @@
 		if (isset($_POST["create"])) {
 			
 			//Will need to determine what new user's id in the db will be
-			$id_query = $conn->query("SELECT MAX(id) AS max FROM testtable");
+			$id_query = $conn->query("SELECT MAX(id) AS max FROM test_table");
 			$max_id = $id_query->fetch_assoc();
 			$new_usr_id = $max_id["max"] + 1;
 			
 			//Insert new user and redirect to their page
-			$query = $conn->prepare('INSERT INTO testtable (username, pwd, admin) VALUES (?, ?, 0)');
+			$query = $conn->prepare('INSERT INTO test_table (username, pwd, admin) VALUES (?, ?, 0)');
 			$query->bind_param('ss', $name, $password);
 			
 			if ($query->execute()) {
@@ -42,7 +42,7 @@
 		} else {
 		
 			// Prepare SELECT query
-			$query = $conn->prepare('SELECT * FROM testtable WHERE username = ? AND pwd = ?');
+			$query = $conn->prepare('SELECT * FROM test_table WHERE username = ? AND pwd = ?');
 			$query->bind_param('ss', $name, $password);
 			$query->execute();
 		
