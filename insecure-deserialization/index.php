@@ -13,18 +13,27 @@
 
 <table align="center">
 <tr><td>
-<form action="vulnerable.php" method="get">
+<form action="index.php" method="get">
 	<input type="text" name="username" placeholder="Username" />
-	<input type="submit" value="Search" />
+	<input type="submit" value="Create User" />
 </form>
 </td></tr>
 </table>
+<div align="center">
+Enter a user name in the first box to create a user object.
+<br>
+Then enter the serialzied data into the second box.
+Change the 0 to 1 in b:0; to see the admin status change.
+</div>
 <table align="center">
+<br>
 <tr><td>
-<form action="vulnerable.php" method="get">
-	<input type="text" name="danger" placeholder="Danger" />
-	<input type="submit" value="Danger" />
+<form action="index.php" method="get">
+	<input type="text" name="danger" placeholder="Drop Object Data Here" />
+	<input type="submit" value="unserialize" />
 </form>
+<div align="center">
+<div>
 </td></tr>
 </table>
 
