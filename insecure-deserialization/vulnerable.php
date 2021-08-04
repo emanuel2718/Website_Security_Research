@@ -19,6 +19,14 @@
 </form>
 </td></tr>
 </table>
+<table align="center">
+<tr><td>
+<form action="vulnerable.php" method="get">
+	<input type="text" name="danger" placeholder="Danger" />
+	<input type="submit" value="Danger" />
+</form>
+</td></tr>
+</table>
 
 <?php
 
@@ -27,27 +35,35 @@ class User{
     public $is_admin;
 
     public function DisplayAdminStatus(){
-        if ($this->$is_admin){
+        if ($this->is_admin){
             echo $this->$user_name . " is an admin ";
         } else {
-            echo $this->$user_name . " is a regualr user";
+            echo $this->$user_name . " is a regular user";
         }
     }
 
 }
 
-echo $_POST['username'];
-echo $_REQUEST['username'] . "request";
-echo '\n';
 
 $object = new User();
-$object->$user_name = $_REQUEST['username'];
-$object->$is_admin = FALSE;
+$object->user_name = $_GET["username"];
+$object->is_admin = TRUE;
 
-echo '<div contenteditable="true" align="center">';
-echo serialize($object);
+echo '<div align="center">';
+echo "User name: " . $object->user_name . ", ";
+echo $object->DisplayAdminStatus();
+echo "<br>";
+echo "Serialized data: " . serialize($object);
+
+
+
+$danger_object = unserialize($_GET['danger']);
+echo "<br>";
+echo "User name: " . $danger_object->user_name . ", ";
+echo $danger_object->DisplayAdminStatus();
+echo "<br>";
+echo "Serialized data: " . serialize($danger_object);
 echo '</div>';
-
 
 
 ?>
