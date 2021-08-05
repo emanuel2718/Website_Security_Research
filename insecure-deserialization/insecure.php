@@ -8,7 +8,7 @@
  content="https://makitweb.com/create-simple-login-page-with-php-and-mysql/">
 </head>
 <body>
-<h1 align="center"> Insecure Serialization:</h1>
+<h1 align="center"> Insecure Deserialization:</h1>
 <br>
 
 <table align="center">
