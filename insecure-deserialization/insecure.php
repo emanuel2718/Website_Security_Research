@@ -8,12 +8,12 @@
  content="https://makitweb.com/create-simple-login-page-with-php-and-mysql/">
 </head>
 <body>
-<h1 align="center"> Employee Class Serialized:</h1>
+<h1 align="center"> Insecure Serialization:</h1>
 <br>
 
 <table align="center">
 <tr><td>
-<form action="index.php" method="get">
+<form action="insecure.php" method="get">
 	<input type="text" name="username" placeholder="Username" />
 	<input type="submit" value="Create User" />
 </form>
@@ -28,9 +28,9 @@ Change the 0 to 1 in b:0; to see the admin status change.
 <table align="center">
 <br>
 <tr><td>
-<form action="index.php" method="get">
-	<input type="text" name="danger" placeholder="Drop Object Data Here" />
-	<input type="submit" value="unserialize" />
+<form action="insecure.php" method="get">
+	<input type="text" name="danger" placeholder="Drop Serialized Data Here" />
+	<input type="submit" value="Insecure Accept" />
 </form>
 <div align="center">
 <div>
