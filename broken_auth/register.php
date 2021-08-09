@@ -7,7 +7,7 @@
 
     <head>
         <header>
-            <h1 class=website>Broken Auth</h1>
+            <h1 class=website>Broken Auth - Vulnerable</h1>
         </header>
 
         <form action='submit.php' method='get' class='formplace' name='yes' onsubmit='return validate()'>

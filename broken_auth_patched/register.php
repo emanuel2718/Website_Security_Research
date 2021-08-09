@@ -8,7 +8,7 @@
 
     <head>
         <header>
-            <h1 class=website>Broken Auth</h1>
+            <h1 class=website>Broken Auth - Secured</h1>
         </header>
 
         <form action='submit.php' method='POST' class='formplace' name='yes' onsubmit='return validate()'>
@@ -58,8 +58,8 @@
                 alert('Passwords must match');
                 return false;
             }
-            if (!(/[a-z A-z]*\d[a-z A-z]*/.test(document.forms['yes']['pwd0'].value))|!/^.{4,15}$/.test(document.forms['yes']['pwd0'].value)) {
-                alert("Password must be between 4 and 15 characters long. Must contain at least one number.");
+            if (!(/[a-z A-z]*\d[a-z A-z]*/.test(document.forms['yes']['pwd0'].value))|!/^.{8,15}$/.test(document.forms['yes']['pwd0'].value)) {
+                alert("Password must be between 8 and 15 characters long. Must contain at least one number.");
                 return false;
             }
         }

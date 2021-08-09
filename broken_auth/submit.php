@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <h1 style='width=100px;'><a href="home.html">Broken Auth</a></h1>
+        <h1 style='width=100px;'><a href="home.html">Broken Auth - Vulnerable</a></h1>
         <h2>Signed in as: <?php echo $_SESSION['name'];?></h2>
 
         <div id='panel' style='top:0px;'>

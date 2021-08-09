@@ -26,7 +26,7 @@
     </script>
 
     <body>
-        <h1 style='width=100px;'><a href="home.html">Broken Auth</a></h1>
+        <h1 style='width=100px;'><a href="home.html">Broken Auth - Secured</a></h1>
 
 
         <div id='panel' style='top:0px;'>
