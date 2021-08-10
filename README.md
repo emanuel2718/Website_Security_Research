@@ -36,21 +36,21 @@ The website is hosted locally and should be restricted from being hosted on the 
 
 [Broken Authentication - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/broken_auth)
 
-[Sensitive data exposure - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/sde_vulnerable)
+[Sensitive Data Exposure - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/sde_vulnerable)
 
-[XML external entities (XXE) - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/xxe)
+[XML External Entities (XXE) - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/xxe)
 
-[Broken access control - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/bac)
+[Broken Access Control - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/bac)
 
-[Security misconfiguration - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/sec-mis)
+[Security Misconfiguration - Vulnerable](https://github.com/emanuel2718/Website_Security_Research/tree/master/sec-mis)
 
-[Cross-site scripting (XSS) - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/xss)
+[Cross-site Scripting (XSS) - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/xss)
 
-[Insecure deserialization - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/insecure-deserialization)
+[Insecure Deserialization - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/insecure-deserialization)
 
-[Using components with known vulnerabilities](https://github.com/emanuel2718/Website_Security_Research/tree/master/known-vulnerabilities)
+[Using Components With Known Vulnerabilities](https://github.com/emanuel2718/Website_Security_Research/tree/master/known-vulnerabilities)
 
-[Insufficient logging and monitoring (See writeup document)](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Write-Ups.pdf)
+[Insufficient Logging and Monitoring (See Writeup Document)](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Write-Ups.pdf)
 
 &nbsp; 
 
@@ -59,21 +59,21 @@ The website is hosted locally and should be restricted from being hosted on the 
 
 [Broken Authentication - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/broken_auth_patched)
 
-[Sensitive data exposure - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/sde_patched)
+[Sensitive Data Exposure - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/sde_patched)
 
-[XML external entities (XXE) - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/better-xxe)
+[XML External Entities (XXE) - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/better-xxe)
 
-[Broken access control - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/better-bac)
+[Broken Access Control - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/better-bac)
 
-[Security misconfiguration - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/better-sec-mis)
+[Security Misconfiguration - Secured](https://github.com/emanuel2718/Website_Security_Research/tree/master/better-sec-mis)
 
-[Cross-site scripting (XSS) - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/xss)
+[Cross-site Scripting (XSS) - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/xss)
 
-[Insecure deserialization - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/insecure-deserialization)
+[Insecure Deserialization - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/insecure-deserialization)
 
-[Using components with known vulnerabilities](https://github.com/emanuel2718/Website_Security_Research/tree/master/known-vulnerabilities)
+[Using Components With Known Vulnerabilities](https://github.com/emanuel2718/Website_Security_Research/tree/master/known-vulnerabilities)
 
-[Insufficient logging and monitoring (See writeup document)](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Write-Ups.pdf)
+[Insufficient Logging and Monitoring (See Writeup Document)](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Write-Ups.pdf)
 
 &nbsp; 
 
@@ -94,4 +94,5 @@ The website is hosted locally and should be restricted from being hosted on the 
 # References
 
 [1. OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
 [2. Apache Documentation](https://www.apachefriends.org/index.html)
