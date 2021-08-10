@@ -12,7 +12,8 @@
 * [Installation](#installation)
 * [Vulnerable](#vulnerable)
 * [Secured](#secured)
-* [Project Documents](#project-documents)
+* [Relevant Documents](#relevant-documents)
+* [References](#references)
 
 &nbsp; 
 
@@ -26,7 +27,7 @@ The website is hosted locally and should be restricted from being hosted on the 
 &nbsp; 
 
 # Installation
-[Please refer to the Installation Document for instructions for instructions](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Installation%20document.pdf)
+[Please refer to the Installation Document for instructions for instructions](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Final%20-%20Installation%20Document.pdf)
 
 &nbsp; 
 
@@ -49,8 +50,9 @@ The website is hosted locally and should be restricted from being hosted on the 
 
 [Using components with known vulnerabilities](https://github.com/emanuel2718/Website_Security_Research/tree/master/known-vulnerabilities)
 
-Insufficient logging and monitoring
+[Insufficient logging and monitoring (See writeup document)](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Write-Ups.pdf)
 
+&nbsp; 
 
 # Secured
 [Injection Attack - Vulnerable & Secured (Combined)](https://github.com/emanuel2718/Website_Security_Research/tree/master/injection)
@@ -71,17 +73,25 @@ Insufficient logging and monitoring
 
 [Using components with known vulnerabilities](https://github.com/emanuel2718/Website_Security_Research/tree/master/known-vulnerabilities)
 
-Insufficient logging and monitoring
+[Insufficient logging and monitoring (See writeup document)](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Write-Ups.pdf)
 
-# Project Documents
+&nbsp; 
+
+# Relevant Documents
 
 [1. Project Plan](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Website%20Security%20Research%20Project%20-%20Franklin%2C%20Ray%20%26%20Medaris%2C%20Cody%20%26%20Ramirez%20Alsina%2C%20Emanuel.pdf)
 
-[2. Installation Document](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Installation%20document.pdf)
+[2. Installation Document](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Final%20-%20Installation%20Document.pdf)
 
-[3. Instructions Document](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Instructions%20document.pdf)
+[3. Instructions Document](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Final%20-%20Instructions%20document.pdf)
 
-[4. Writeups]
+[4. Writeups](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Write-Ups.pdf)
 
-[5. Final Report]
+[5. Final Report](https://github.com/emanuel2718/Website_Security_Research/blob/master/Documents/Final%20Report.pdf)
 
+&nbsp; 
+
+# References
+
+[1. OWASP Top 10](https://owasp.org/www-project-top-ten/)
+[2. Apache Documentation](https://www.apachefriends.org/index.html)
